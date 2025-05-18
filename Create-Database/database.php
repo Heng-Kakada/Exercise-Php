@@ -4,6 +4,11 @@
 //$sql = "create database mydatabase";
 //$conn->exec($sql);
 
-$conn = new mysqli("127.0.0.1", "root", "piko1234");
-$sql = "create database mydatabase1";
-$conn->query($sql);
+//$conn = new mysqli("127.0.0.1", "root", "piko1234");
+//$sql = "create database mydatabase1";
+//$conn->query($sql);
+
+
+$var1 = "test";
+$test = "World";
+echo $$var1;
